@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, Download, Github, Linkedin, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+// import Image from "next/image";
 import { socialLinks } from "@/data/social";
 
 export function Hero() {
@@ -22,7 +22,7 @@ export function Hero() {
   // Parallax effect setup
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [0, 150]); // Text moves slower
-  const y2 = useTransform(scrollY, [0, 500], [0, 250]); // Image moves faster
+  // const y2 = useTransform(scrollY, [0, 500], [0, 250]); // Image moves faster
 
   useEffect(() => {
     const interval = setInterval(() => {

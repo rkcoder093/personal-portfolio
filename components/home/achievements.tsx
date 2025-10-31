@@ -1,9 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Trophy, Medal, Award, Users, Star, Laptop, Code, Cpu, Gamepad, Zap, BookOpen, Rocket, TrendingUp } from "lucide-react";
+import { Trophy, Medal, Award, Users, Star, Laptop,Rocket, TrendingUp } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 
 interface Achievement {
   icon: React.ReactNode;
